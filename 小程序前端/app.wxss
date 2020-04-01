@@ -1,0 +1,10 @@
+.width96{
+  width:96%;
+  height:auto;
+  margin:auto;
+}
+.width90{
+  width:90%;
+  height:auto;
+  margin:auto;
+}

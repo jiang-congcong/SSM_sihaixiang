@@ -1,0 +1,62 @@
+<view class="width96">
+
+<!-- 第一部分 -->
+  <view class="searchBox">
+    <image src="../img/search.png"></image>
+    <input type="text" placeholder="搜美食,菜普"/>
+  </view>
+<!-- 第一部分 -->
+
+<!-- 第二部分 -->
+<view class="searchPrice">
+  <view class="searchPrice-left" bindtap="showsearch">
+    <view>
+      <view class="minPrice">{{minValue}}</view>
+      -
+      <view class="maxPrice">{{maxValue}}</view>
+       元
+    </view>
+    <image src="../img/bottomicon.png"></image>
+  </view>
+  <view class="searchPrice-right">
+    <view>价格排序</view>
+    <image src="../img/bottomicon.png"></image>
+  </view>
+</view>
+<!-- 第二部分 -->
+
+<!-- 第三部分 -->
+<view class="priceBox" wx:if="{{isShow}}" >
+<view class="priceBox-top">
+  <input type="text" bindinput="minPrice" placeholder="最小值"/>
+  -
+  <input type="text" bindinput="maxPrice" placeholder="最大值"/>
+</view>
+<view class="buttonSearch">
+点击搜索
+</view>
+</view>
+<!-- 第三部分 -->
+
+<!-- 第四部分 -->
+<navigator class="goodsItem" url="/pages/info/info?id={{item.id}}"  wx:for="{{goodsArr}}" wx:key="xx">
+  <view class="goodsItem-left">
+    <image class="goodsItem-img1" src="{{item.imgPath}}"></image>
+    <view class="hot">
+      <image  class="goodsItem-img2" src="../img/17.png"></image>
+      <view class="hot-value">{{item.hot}}</view>
+    </view>
+  </view>
+  <view class="goodsItem-right">
+          <view class="name">{{item.name}}</view>
+          <view class="info">{{item.info}}</view>
+          <view class="price">￥{{item.price}}/桌</view>
+          <view class="feature" wx:for="{{item.feature}}" wx:key="uu">
+              <view class="feature1">{{item}}</view>
+          </view>  
+    </view>
+
+    
+</navigator>
+<!-- 第四部分 -->
+</view>

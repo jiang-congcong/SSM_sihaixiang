@@ -1,0 +1,13 @@
+.box{
+  width:80%;
+  height:100px;
+  background-color:pink;
+  margin:0 auto;
+  line-height:100px;
+  text-align:center;
+}
+
+
+
+
+

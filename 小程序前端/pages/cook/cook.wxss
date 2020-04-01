@@ -1,0 +1,67 @@
+.borderBottom{
+  border-bottom:10px solid #ccc;
+}
+
+.cookItem{
+  padding:30rpx;
+  margin:10px auto;
+}
+.cookItem-top{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom:1px solid #ccc;
+  padding-bottom:10px;
+}
+.cookItem-top image{
+  width:15px;
+  height:15px;
+  margin-right:10px;
+}
+
+
+.cookItem-bottom{
+  padding-top:10px;
+  display: flex;
+}
+.cookItem-bottom-right{
+  width:380rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cookItem-bottom image{
+  width:280rpx;
+  height:170rpx;
+  margin-right:10px;
+}
+
+.info{
+  display:flex;
+  justify-content: space-between;
+}
+.price{
+  color:#ff5d48;
+}
+.comment{
+  border:1px solid #ff5d48;
+  padding:5px;
+  border-radius: 4px;
+  color:#ff5d48;
+}
+.dinnerName{
+  font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+

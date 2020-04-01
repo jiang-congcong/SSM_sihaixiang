@@ -1,0 +1,150 @@
+
+/* 第一部分 */
+.searchBox{
+  display:flex;
+  background-color:#f1f1f1;
+  height:40px;
+  border-radius: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  margin:10px 0;
+}
+.searchBox image{
+  width:20px;
+  height:20px;
+  margin:0 10px;
+}
+.searchBox input{
+  width:80%;
+}
+/* 第一部分 */
+
+/* 第二部分 */
+.searchPrice{
+  display:flex;
+  height:50px;
+  padding:20px;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+}
+.searchPrice-left,.searchPrice-right{
+  display:flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+}
+.searchPrice-left view{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchPrice image{
+  width:15px;
+  height:15px;
+  margin-left:5px;
+}
+/* 第二部分 */
+
+/* 第三部分 */
+.priceBox{
+  border-bottom:1px solid #ccc;
+}
+.priceBox-top{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px 0;
+}
+.priceBox input{
+  width:100px;
+  border:1px solid #ccc;
+  height:40px;
+  border-radius: 20px;
+  margin:0 5px;
+  text-indent:10px;
+}
+
+.buttonSearch{
+  width:100px;
+  height:30px;
+  border:1px solid #ccc;
+  border-radius: 20px;
+  text-align:center;
+  line-height:30px;
+  margin:5px auto;
+  background: linear-gradient(to right,#f05,#f0a);
+  color:#fff;
+}
+/* end 第三部分 */
+
+/* 第四部分 */
+.goodsItem{
+  margin:20px auto;
+  display:flex;
+}
+.goodsItem-left{
+  position: relative;
+  margin-right:10px;
+  flex:2;
+}
+
+.goodsItem-img1{
+  width:240rpx;
+  height:240rpx;
+}
+.hot{
+  width:40px;
+  height:20px;
+  background-color:rgba(0,0,0,0.2);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:50px;
+  bottom:10px;
+}
+.hot-value{
+  color:#fff;
+}
+.goodsItem-img2{
+  width:15px;
+  height:15px;
+}
+
+.goodsItem-right{
+  /* display:flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  flex:3;
+}
+.goodsItem-right .name{
+  font-weight: bold;
+  font-size:18px;
+}
+.goodsItem-right .info{
+  color:#ccc;
+}
+
+.price{
+  color:#f05;
+}
+/* .feature{
+  display:flex;
+  flex-direction: row;
+} */
+
+.feature .feature1{
+  width:35px;
+  padding:5px;
+  border:1px solid #ccc;
+  border-radius:2px;
+  margin-right:5px;
+  float:left;
+  /* background-color:blue; */
+}
+/* 第四部分 */
+
+
+
+
+

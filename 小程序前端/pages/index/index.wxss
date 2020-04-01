@@ -1,0 +1,185 @@
+/* 第一部分 */
+.swiper-banner{
+  width:100%;
+  height:380rpx;
+}
+
+/* end 第一部分 */
+
+/* 第二部分 */
+.search{
+  width:690rpx;
+  height:90rpx;
+  background-color:#fff;
+  border-radius: 45rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  left:30rpx;
+  top:-45rpx;
+  margin-top:390rpx;
+  box-shadow: 2px 3px 13px 3px #ccc;
+}
+.search image{
+  width:20px;
+  height:20px;
+  margin-right:10px;
+}
+/* end 第二部分 */
+
+/* 第三部分 nav */
+.nav{
+  margin-top:100rpx;
+  padding-bottom:20rpx;
+}
+.nav-top{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:45rpx;
+}
+.nav-top navigator{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .nav-top image{
+  width:113rpx;
+  height:113rpx;
+}
+.nav .nav-bottom image{
+  height:300rpx;
+  width:100%;
+}
+/*end  第三部分 nav */
+
+.borderBottom{
+  width:100%;
+  border-bottom:10px solid #eee;
+}
+
+/* 第四部分 */
+.goodCook{
+  margin-bottom:10px;
+  /* background-color:blue; */
+}
+.goodCook-top{
+  text-align:center;
+  margin:20rpx 0;
+}
+.goodCook-top image{
+width:460rpx;
+height:90rpx;
+}
+.goodCook-middle{
+  padding:40px 0;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+.goodCook-middle .goodCook-item{
+  box-shadow: 1px 1px 10px 1px #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.goodCook-middle .goodCook-middle-img1{
+  width:220rpx;
+  height:240rpx;
+}
+.goodCook-middle .star{
+  width:240rpx;
+  height:20px;
+  /* background-color:red; */
+  overflow:hidden;
+  margin-bottom:10px;
+}
+.goodCook-middle .star .goodCook-middle-img2{
+  width:220rpx;
+  height:150px;  
+}
+
+/* end 第四部分 */
+
+/* 第五部分 */
+.superDinner{
+  /* background-color:Red; */
+}
+.dinnerTop{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dinnerImg1{
+  width:460rpx;
+  height:60rpx;
+  margin:0 auto;
+}
+ .dinnerBox{
+  width:100%;
+  display:flex;
+}
+ .dinnerBoxIn{
+  display: flex;
+  justify-content: space-around;
+}
+ .dinnerItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width:320rpx;
+  padding:5px 10px;
+}
+ .dinnerItem image{
+  width:320rpx;
+  height:190rpx;  
+}
+ .dinnerItem .dinnerName{
+  margin:10px 0;
+}
+
+ .dinnerItem .dinnerPrice{
+  margin-bottom:10px;
+  color:#ff6653;
+}
+
+/* 第五部分 */
+
+/* 第六部分 */
+.navItem{
+  display:flex;
+  box-shadow: 1px 1px 10px 1px #ccc;
+  padding:10px;
+  flex:1;
+}
+.navBottom-top,.navBottom-bottom{
+  display: flex;
+  justify-content:space-between;
+}
+.navBottom image{
+  width:80rpx;
+  height:80rpx;
+  margin-right:5px;
+}
+.fontSize16{
+  font-size:16px;
+}
+.fontSize12{
+  font-size:12px; 
+  color:#888; 
+}
+/* end 第六部分 */
+
+/* 第七部分 */
+.bottom-img image{
+  width:100%;
+  height:400rpx;
+  margin-top:10px;
+}
+/* 第七部分 */

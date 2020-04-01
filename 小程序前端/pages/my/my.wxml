@@ -1,0 +1,23 @@
+<view class="width96">
+  <view class="top">
+    <view class="topLeft">
+      <view class="topLeft-txt1">{{nickname}}</view>
+      <view class="topLeft-txt2">欢迎光临四海香</view>
+    </view>
+    <image src="{{headimg}}"></image>
+  </view>
+<!-- bottom -->
+  <view class="bottom" wx:for="{{navArr}}" wx:key="xx">
+    <view class="left">
+      <view class="navLeft">
+        <image src="{{item.imgPath}}"></image>
+        <view>{{item.name}}</view>
+      </view>
+      <view class="navRight">></view>
+    
+    </view>
+  
+  </view>
+
+<!-- end bottom -->
+</view>

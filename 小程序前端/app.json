@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/test/test",
+    "pages/info/info",
+    "pages/goodslist/goodslist",
+    "pages/start/start",
+    "pages/my/my",
+    "pages/cook/cook",
+    "pages/favorite/favorite",
+    "pages/testdata/testdata",
+    "pages/flex/flex"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "四海香",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#646464",
+    "selectedColor": "f02",
+    "list": [
+      {
+        "iconPath": "pages/img/footer1.png",
+        "selectedIconPath": "pages/img/footer1-sel.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "pages/img/footer2.png",
+        "selectedIconPath": "pages/img/footer2-sel.png",
+        "pagePath": "pages/favorite/favorite",
+        "text": "收藏"
+      },
+      {
+        "iconPath": "pages/img/footer3.png",
+        "selectedIconPath": "pages/img/footer3-sel.png",
+        "pagePath": "pages/cook/cook",
+        "text": "烹任行程"
+      },
+      {
+        "iconPath": "pages/img/footer4.png",
+        "selectedIconPath": "pages/img/footer4-sel.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}

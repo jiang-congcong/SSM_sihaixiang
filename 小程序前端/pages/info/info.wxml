@@ -1,0 +1,146 @@
+<!-- 第一部分 -->
+<view class="info-first">
+<image class="info-first-img1" src="../img/banner.png"></image>
+<view class="hot">
+  <image class="info-first-img2" src="../img/17.png"></image>
+  <view class="hot-value">10</view>
+</view>
+
+</view>
+
+<!-- 第一部分 -->
+
+<!-- 第二部分 -->
+<view class="info-two width90">
+  <view class="name">法式经典盛夏海鲜餐宴</view>
+  <view class="info">八菜一汤,特色甜点</view>
+  <view class="info-two-bottom">
+    <view  class="feature">
+      <view>精品</view>
+      <view>优选</view>
+      <view>热销</view>
+    </view>
+    <view  class="price">￥4999/桌</view>
+  </view>
+</view>
+
+<view class="borderBottom20"></view>
+
+<!-- 第二部分 -->
+
+<!-- 第三部分 -->
+<view class="info-three">
+  <view class="title">食材配置</view>
+  <view class="content {{ismore?'h-auto':''}}">
+    <view class="material-item">
+      <image src="../img/27.png"></image>
+      <view class="name">猪肉</view>
+    </view>
+    <view class="material-item">
+      <image src="../img/27.png"></image>
+      <view class="name">猪肉</view>
+    </view>
+    <view class="material-item">
+      <image src="../img/27.png"></image>
+      <view class="name">猪肉</view>
+    </view>
+    <view class="material-item">
+      <image src="../img/27.png"></image>
+      <view class="name">猪肉</view>
+    </view>
+    <view class="material-item">
+      <image src="../img/27.png"></image>
+      <view class="name">猪肉</view>
+    </view>
+    <view class="material-item">
+      <image src="../img/27.png"></image>
+      <view class="name">猪肉</view>
+    </view>
+    <view class="material-item">
+      <image src="../img/27.png"></image>
+      <view class="name">猪肉</view>
+    </view>
+    <view class="material-item">
+      <image src="../img/27.png"></image>
+      <view class="name">猪肉</view>
+    </view>
+
+  </view>
+
+  <view class="more" bindtap="more1">
+    查看更多食材
+  </view>
+
+</view>
+<view class="borderBottom20"></view>
+<!-- 第三部分 -->
+
+<!-- 第四部分 -->
+  <view class="title">菜品组成</view>
+<view class="info-four">
+  <view class="content {{ismore2?'h-auto':''}}">
+    <view class="content-item">
+      <image src="../img/12.png"></image>
+      <view class="name">铁板泰国龙虾</view>
+    </view>
+    <view class="content-item">
+      <image src="../img/31.png"></image>
+      <view class="name">秘制大闸蟹</view>
+    </view>
+    <view class="content-item">
+      <image src="../img/12.png"></image>
+      <view class="name">铁板泰国龙虾</view>
+    </view>
+    <view class="content-item">
+      <image src="../img/31.png"></image>
+      <view class="name">秘制大闸蟹</view>
+    </view>
+  </view>
+
+  <view class="more" bindtap="more2">查看全部菜品</view>
+
+</view>
+<view class="borderBottom20"></view>
+<!-- 第四部分 -->
+
+<!-- 第五部分 -->
+<view class="gurantee">
+  <view class="title">平台保障</view>
+  <view class="content">
+    <view class="item">
+      <image src="../img/15.png"></image>
+      <view class="name">食材严审</view>
+    </view>
+    <view class="item">
+      <image src="../img/16.png"></image>
+      <view class="name">认证厨师</view>
+    </view>
+    <view class="item">
+      <image src="../img/17.png"></image>
+      <view class="name">支付保障</view>
+    </view>
+  </view>
+</view>
+<!-- 第五部分 -->
+<view class="borderBottom20"></view>
+
+<!-- 第六部分 -->
+<view class="comment"></view>
+
+<!-- 第六部分 -->
+<view style="height:80px; background-color:#ccc;"></view>
+
+<!-- 第七部分 -->
+<view class="info-bottom">
+  <view class="call" bindtap="call">
+    <image src="../img/35.png"></image>
+    <view>客服</view>
+  </view>
+  <view class="favorite">
+    <image src="../img/36.png"></image>
+    <view>收藏</view>
+  </view>
+  <view class="order">立即下单</view>
+
+</view>
+<!-- 第七部分 -->

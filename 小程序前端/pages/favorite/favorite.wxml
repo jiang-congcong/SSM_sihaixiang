@@ -1,0 +1,64 @@
+<view class="width96">
+  <!-- 第一部分 -->
+  <view class="favorite-top">
+    <view class="favorite-top-left">
+      <image src="../img/18.png"></image>
+      <view class="favorite-top-left-txt">已收藏{{totalNum}}个餐宴</view>
+    </view>
+    <view class="favorite-top-right" bindtap="del">
+      <image src="../img/19.png"></image>
+      <view class="favorite-top-right-txt">清空</view>
+    </view>
+  </view>
+  <!-- 第一部分 -->
+
+  <!-- 第二部分 -->
+  <block wx:for="{{goodsList}}"  wx:if="{{totalNum != 0}}">
+  <view class="goodItem">
+  <view class="goodItem-top">
+    <image class="goodItem-img1" src="{{item.imgPath}}"></image>
+    <view class="goodItem-top-in">
+      <image class="goodItem-img2" src="../img/17.png"></image>
+      <view>{{item.hot}}</view>
+    </view>
+  </view>
+
+  <view class="goodItem-bottom">
+    <view class="goodItem-bottom-left">
+      <view class="goodItem-bottom-left-text1">{{item.goodsName}}</view>
+      <view class="goodItem-bottom-left-text2">￥{{item.goodsPrice}}/桌</view>
+    </view>
+    <view class="goodItem-bottom-right" data-id="{{item.id}}" bindtap="cancel">
+      <image src="../img/20.png"></image>
+      <view class="goodItem-bottom-left-text3">取消收藏</view>
+    </view>
+  </view>
+  </view>
+  </block>
+
+  <block wx:if="{{totalNum == 0}}" >
+    <view class="noFavorite">
+      <image src="../img/21.png"></image>
+    </view>
+  </block>
+
+  
+  <!-- end 第二部分 -->
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

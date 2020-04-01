@@ -1,0 +1,59 @@
+/* top */
+.top{
+  margin:20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top .topLeft{
+  height:140rpx;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start
+}
+.top .topLeft-txt1{
+  font-size:20px;
+  font-weight:bold;
+}
+.top .topLeft-txt2{
+  font-size:16px;
+  color:#ccc;
+}
+.top image{
+  width:140rpx;
+  height:140rpx;
+}
+
+.bottom{
+  margin:10px auto;
+}
+
+.bottom .left{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLeft{
+  display:flex;
+
+}
+.bottom image{
+  width:20px;
+  height:20px;
+  margin-right:10px;
+}
+
+/* end top */
+
+
+
+
+
+
+
+
+
+
+
+

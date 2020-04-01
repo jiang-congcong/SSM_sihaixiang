@@ -1,0 +1,142 @@
+<!-- 第一部分 -->
+<swiper class="swiper-banner" indicator-dots="{{indicatorDots}}" circular="true" previous-margin="35px"
+next-margin="35px"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgPath}}" wx:key="*this">
+          <swiper-item>
+            <!-- <view  class=" box">swiper-item {{item}}</view> -->
+            <image src="{{item}}"></image>
+          </swiper-item>
+        </block>
+</swiper>
+
+<!-- end 第一部分 -->
+
+<!-- 第二部分 search -->
+<view class="search" bindtap="toSearch">
+  <image src="../img/3.png"></image>
+  <view>搜美食 菜普</view>
+</view>
+
+<!-- end 第二部分 -->
+
+<!-- 第三部分 nav -->
+  <view class="width96 nav">
+    <view class="nav-top">
+      <navigator url="{{item.navPath}}" class="nav-item"  wx:for="{{navArr}}" wx:key="xx">
+        <image src="{{item.imgPath}}"></image>
+        <view>{{item.imgTxt}}</view>
+      </navigator>
+      <!-- <view class="nav-item">
+        <image src="../img/5.png"></image>
+        <view>名厨</view>
+      </view>
+      <view class="nav-item">
+        <image src="../img/6.png"></image>
+        <view>坝坝宴</view>
+      </view>
+      <view class="nav-item">
+        <image src="../img/7.png"></image>
+        <view>餐宴周边</view>
+      </view> -->
+    </view>
+    <view class="nav-bottom">
+      <image src="../img/banner2.png"></image>
+    </view>
+  </view>
+
+<!-- end 第三部分 nav -->
+<view class="borderBottom"></view>
+
+<!-- 第四部分 -->
+<view class="goodCook width96">
+<view class="goodCook-top">
+  <image src="../img/9.png"></image>
+</view>
+<view class="goodCook-middle">
+  <view wx:for="{{cookArr}}" class="goodCook-item" wx:key="xx">
+  <image class="goodCook-middle-img1" src="{{item.imgPath}}" ></image>
+  <view class="goodCook-name">{{item.name}}</view>
+  <view class="star">
+    <image class="goodCook-middle-img2" src="../img/star.png" style="margin-top:-116px;" wx:if="{{item.star == 5}}"></image>
+    <image class="goodCook-middle-img2" src="../img/star.png" style="margin-top:-94px;" wx:if="{{item.star == 4}}"></image>
+    <image class="goodCook-middle-img2" src="../img/star.png" style="margin-top:-74px;" wx:if="{{item.star == 3}}"></image>
+    <image class="goodCook-middle-img2" src="../img/star.png" style="margin-top:-52px;" wx:if="{{item.star == 2}}"></image>
+    <image class="goodCook-middle-img2" src="../img/star.png" style="margin-top:-31px;" wx:if="{{item.star == 1}}"></image>
+    <image class="goodCook-middle-img2" src="../img/star.png" style="margin-top:-10px;" wx:if="{{item.star == 0}}"></image>
+  </view>
+  </view>
+</view>
+<view class="goodCook-bottom"></view>
+
+</view>
+<!-- end 第四部分 -->
+
+<!-- 第五部分 -->
+<view class="superDinner">
+<view class="dinnerTop">
+  <image class="dinnerImg1" src="../img/10.png"></image>
+</view>
+  <scroll-view scroll-x="true" class="dinnerBox" >
+  <view class="dinnerBoxIn">
+    <view class="dinnerItem" wx:for="{{dinnerArr}}" wx:key="xx">
+      <image src="{{item.imgPath}}"></image>
+      <view class="dinnerName">{{item.name}}</view>
+      <view class="dinnerPrice">{{item.price}}</view>
+    </view> 
+  </view>
+  </scroll-view>
+</view>
+
+<!-- end 第五部分 -->
+<!-- 第六部分 -->
+<view class="navBottom">
+  <view class="navBottom-top">
+    <view class="navItem">
+      <image src="../img/13.png"></image>
+      <view class="navTxt">
+        <view class="navTxt-top fontSize16">信用保障</view>
+        <view class="navTxt-bottom fontSize12">服务到位,时间准确</view>
+      </view>
+    </view>
+    <view class="navItem">
+      <image src="../img/14.png"></image>
+      <view class="navTxt">
+        <view class="navTxt-top fontSize16">信用保障</view>
+        <view class="navTxt-bottom fontSize12">服务到位,时间准确</view>
+      </view>
+    </view>
+  </view>
+  <view class="navBottom-bottom">
+   <view class="navItem">
+      <image src="../img/15.png"></image>
+      <view class="navTxt">
+        <view class="navTxt-top fontSize16">信用保障</view>
+        <view class="navTxt-bottom fontSize12">服务到位,时间准确</view>
+      </view>
+    </view>
+    <view class="navItem">
+      <image src="../img/16.png"></image>
+      <view class="navTxt">
+        <view class="navTxt-top fontSize16">信用保障</view>
+        <view class="navTxt-bottom fontSize12">服务到位,时间准确</view>
+      </view>
+    </view></view>
+</view>
+<!-- end第六部分 -->
+
+<!-- 第七部分 -->
+<view class="bottom-img">
+<image src="../img/banner2.png"></image>
+</view>
+
+<!-- end 第七部分 -->
+
+
+
+
+
+
+
+
+

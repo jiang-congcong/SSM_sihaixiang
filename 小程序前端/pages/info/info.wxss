@@ -1,0 +1,201 @@
+/* 第一部分 */
+.info-first{
+  width:100%;
+  height:460rpx;
+  position: relative;
+}
+.info-first-img1{
+  width:100%;
+  height:460rpx;
+}
+.info-first-img2{
+  width:15px;
+  height:15px;
+}
+.info-first .hot{
+  display:flex;
+  width:100rpx;
+  height:30px;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  position: absolute;
+  right:10px;
+  bottom:10px;
+  background-color:rgba(0,0,0,0.2);
+}
+
+/* 第一部分 */
+
+
+/* 第二部分 */
+
+.info-two{
+  margin:20px 0;
+  padding:0 10px;
+}
+.info-two-bottom{
+  display:flex;
+  justify-content: space-between;
+}
+.feature{
+  display:flex;
+}
+.feature view{
+  padding:5px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  margin-left:5px;
+}
+.name{
+  font-size:20px;
+  font-weight:bold;
+}
+.info-two .info{
+  font-size:16px;
+  color:#ccc;
+  margin:5px 0;
+}
+.price{
+  color:#f00;
+}
+.borderBottom20{
+  border-bottom:20px solid #ccc;
+}
+/* 第二部分 */
+
+
+/* 第三部分 */
+
+
+
+.title{
+  font-size:20px;
+  font-weight:bold;
+  margin:5px 0;
+}
+.material-item{
+  width:150rpx;
+  height:70px;
+  float:left;
+}
+.material-item image{
+  width:150rpx;
+  height:90rpx;
+}
+.material-item .name{
+  font-size:15px;
+  text-align:center;
+  
+}
+.info-three .content{
+  height:70px;
+  overflow:hidden;
+  
+}
+.info-three .h-auto{
+  height:auto;
+}
+.info-three .content::after{
+  content:" ";
+  display:block;
+  clear:both;
+}
+
+ .more{
+  text-align:center;
+  line-height:40px;
+  padding:10px 0;
+  font-size:18px;
+  color:#444;
+}
+
+
+/* 第三部分 */
+
+
+/* 第四部分 */
+.info-four image{
+  width:330rpx;
+  height:220rpx;
+}
+ .info-four .content-item{
+   float:left;
+   width:330rpx;
+   height:300rpx;
+   margin:0  10px;
+ }
+
+ .info-four .content{
+   height:300rpx;
+   overflow:hidden;
+ }
+ .info-four .h-auto{
+  height:auto;
+}
+
+ .info-four .content::after{
+   content:"";
+   display:block;
+   clear:both;
+ }
+
+/* 第四部分 */
+
+/* 第五部分 */
+.gurantee .content{
+  display: flex;
+  justify-content: space-around;
+}
+.gurantee .item{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gurantee .item image{
+  width:40px;
+  height:40px;
+}
+.gurantee .item .name{
+  font-size:16px;
+  font-weight:normal;
+  margin:5px 0;
+}
+
+/* 第五部分 */
+
+
+/* 第七部分 */
+.info-bottom{
+  width:100%;
+  height:50px;
+  display: flex;
+  position: fixed;
+  left:0;
+  bottom:0;
+}
+.call,.favorite{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  background-color:#fff;
+}
+.info-bottom image{
+  width:30px;
+  height:30px;
+}
+.info-bottom  .order{
+  flex:3;
+  background-color:#ff7156;
+  text-align:center;
+  line-height:50px;
+  color:#fff;
+}
+
+/* 第七部分 */
+
+
+

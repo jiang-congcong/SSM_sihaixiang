@@ -1,0 +1,35 @@
+<block wx:for="{{cookList}}">
+<view class="borderBottom"></view>
+<view class="cookItem width96">
+  <view class="cookItem-top">
+    <image  src="../img/22.png"></image>
+    <view class="cookItem-top-text">05-09 11:40 周三 名厨上门</view>
+  </view>
+  <view class="cookItem-bottom">
+    <view class="cookItem-bottom-left">
+    <image src="{{item.imgPath}}"></image>
+    </view>
+    <view class="cookItem-bottom-right">
+      <view class="dinnerName">{{item.dinnerName}}</view>
+      <view class="info">
+        <view class="price">￥{{item.price}}/桌</view>
+        <view class="comment">评论</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+</block>
+
+
+
+
+
+
+
+
+
+
+
+
+
